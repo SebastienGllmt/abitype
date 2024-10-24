@@ -103,6 +103,11 @@ export {
 } from '../human-readable/parseAbiParameters.js'
 
 export {
+  selectorAbiItem,
+  type SelectorAbiItem,
+} from '../human-readable/selectorAbiItem.js'
+
+export {
   UnknownTypeError,
   InvalidAbiItemError,
   UnknownSolidityTypeError,
